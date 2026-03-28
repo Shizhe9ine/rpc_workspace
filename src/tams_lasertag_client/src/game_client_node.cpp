@@ -163,7 +163,7 @@ public:
   : Node("game_client_node")
   {
     // Params
-    server_url_ = this->declare_parameter<std::string>("server_url", "http://localhost:5000");
+    server_url_ = this->declare_parameter<std::string>("http://134.100.13.191:5000", "http://134.100.13.191:5000");
 
     // Get hostname
     std::string hostname;

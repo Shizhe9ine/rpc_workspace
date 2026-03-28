@@ -1,0 +1,23 @@
+<launch>
+
+  <include file="$(find-pkg-share turtlebot4_navigation)/launch/localization.launch.py">
+    <arg name="map" value="/home/ubuntu/rpc_workspace/src/py_pubsub/config/tams_floor.yaml"/>
+  </include>
+
+
+  <!-- Include TurtleBot4 Navigation (Nav2) launch file -->
+  <include file="$(find-pkg-share turtlebot4_navigation)/launch/nav2.launch.py"/>
+</launch>
+
+
+
+
+<!-- THIS IS COMMENT
+localization 
+nav2 
+lasertag.yaml
+-own game node -->
+
+
+    
+

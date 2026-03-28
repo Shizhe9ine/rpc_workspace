@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    yaml_filename: /home/ubuntu/rpc_workspace/src/py_pubsub/config/tams_floor.yaml
+    frame_id: map
+    topic_name: map
+
+
