@@ -46,7 +46,7 @@ class LaserTagStrats(Node):
     NAV_ACTION = "/navigate_to_pose"
 
     # Rate limit for submitting hits (seconds)
-    SUBMIT_COOLDOWN_SEC = 1.0
+    SUBMIT_COOLDOWN_SEC = 10.0
 
     # How long to wait after starting for camera_info/image to arrive
     STARTUP_GRACE_SEC = 2.0
